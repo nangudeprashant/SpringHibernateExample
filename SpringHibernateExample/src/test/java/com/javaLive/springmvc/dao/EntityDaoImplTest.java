@@ -1,4 +1,4 @@
-package com.websystique.springmvc.dao;
+package com.javaLive.springmvc.dao;
 
 import javax.sql.DataSource;
 
@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTransactionalTestNGSpringContextTests;
 import org.testng.annotations.BeforeMethod;
 
-import com.websystique.springmvc.configuration.HibernateTestConfiguration;
+import com.javaLive.springmvc.configuration.HibernateTestConfiguration;
 
 
 @ContextConfiguration(classes = { HibernateTestConfiguration.class })

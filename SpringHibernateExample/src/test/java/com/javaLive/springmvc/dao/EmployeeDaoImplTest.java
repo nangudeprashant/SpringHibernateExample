@@ -1,4 +1,4 @@
-package com.websystique.springmvc.dao;
+package com.javaLive.springmvc.dao;
 
 import java.math.BigDecimal;
 
@@ -9,7 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.websystique.springmvc.model.Employee;
+import com.javaLive.springmvc.dao.EmployeeDao;
+import com.javaLive.springmvc.model.Employee;
 
 
 public class EmployeeDaoImplTest extends EntityDaoImplTest{

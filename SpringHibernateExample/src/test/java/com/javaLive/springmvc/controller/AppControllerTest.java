@@ -1,4 +1,4 @@
-package com.websystique.springmvc.controller;
+package com.javaLive.springmvc.controller;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyString;
@@ -25,9 +25,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-
-import com.websystique.springmvc.model.Employee;
-import com.websystique.springmvc.service.EmployeeService;
+import com.javaLive.springmvc.controller.AppController;
+import com.javaLive.springmvc.model.Employee;
+import com.javaLive.springmvc.service.EmployeeService;
 
 public class AppControllerTest {
 

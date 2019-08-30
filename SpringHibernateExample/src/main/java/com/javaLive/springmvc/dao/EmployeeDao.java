@@ -1,8 +1,8 @@
-package com.websystique.springmvc.dao;
+package com.javaLive.springmvc.dao;
 
 import java.util.List;
 
-import com.websystique.springmvc.model.Employee;
+import com.javaLive.springmvc.model.Employee;
 
 public interface EmployeeDao {
 

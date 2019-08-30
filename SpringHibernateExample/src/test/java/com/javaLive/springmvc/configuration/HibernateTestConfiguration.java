@@ -1,4 +1,4 @@
-package com.websystique.springmvc.configuration;
+package com.javaLive.springmvc.configuration;
 
 import java.util.Properties;
 
@@ -23,7 +23,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({ "com.websystique.springmvc.dao" })
+@ComponentScan({ "com.javaLive.springmvc.dao" })
 public class HibernateTestConfiguration {
 
 	@Autowired
@@ -33,7 +33,7 @@ public class HibernateTestConfiguration {
 	public LocalSessionFactoryBean sessionFactory() {
 		LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
 		sessionFactory.setDataSource(dataSource());
-		sessionFactory.setPackagesToScan(new String[] { "com.websystique.springmvc.model" });
+		sessionFactory.setPackagesToScan(new String[] { "com.javaLive.springmvc.model" });
 		sessionFactory.setHibernateProperties(hibernateProperties());
 		return sessionFactory;
 	}

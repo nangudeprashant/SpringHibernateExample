@@ -1,4 +1,4 @@
-package com.websystique.springmvc.service;
+package com.javaLive.springmvc.service;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyString;
@@ -22,8 +22,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.websystique.springmvc.dao.EmployeeDao;
-import com.websystique.springmvc.model.Employee;
+import com.javaLive.springmvc.dao.EmployeeDao;
+import com.javaLive.springmvc.model.Employee;
+import com.javaLive.springmvc.service.EmployeeServiceImpl;
 
 public class EmployeeServiceImplTest {
 
