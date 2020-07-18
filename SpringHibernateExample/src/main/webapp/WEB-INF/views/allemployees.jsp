@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>University Enrollments</title>
+	<title>Employee Enrollments</title>
 
 	<style>
 		tr:first-child{
@@ -28,7 +28,9 @@
 			<td>${employee.joiningDate}</td>
 			<td>${employee.salary}</td>
 			<td><a href="<c:url value='/edit-${employee.ssn}-employee' />">${employee.ssn}</a></td>
-			<td><a href="<c:url value='/delete-${employee.ssn}-employee' />">delete</a></td>
+			<td>
+			<a href="<c:url value='/delete-${employee.ssn}-employee' />" onclick="if(!(confirm('Are you sure want to delete this record permanently?'))) return false">delete</a></td>
+			<%-- <td><a href="<c:url value='/delete-${employee.ssn}-employee' />">delete</a></td> --%>
 			</tr>
 		</c:forEach>
 	</table>
