@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="719" started-at="2021-03-16T13:06:16Z" finished-at="2021-03-16T13:06:17Z">
+  <suite name="Default suite" duration-ms="2389" started-at="2021-03-29T14:46:47Z" finished-at="2021-03-29T14:46:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="719" started-at="2021-03-16T13:06:16Z" finished-at="2021-03-16T13:06:17Z">
+    <test name="Default test" duration-ms="2389" started-at="2021-03-29T14:46:47Z" finished-at="2021-03-29T14:46:49Z">
       <class name="com.javaLive.springmvc.controller.AppControllerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="setUp" is-config="true" duration-ms="527" started-at="2021-03-16T18:36:16Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="setUp" is-config="true" duration-ms="1918" started-at="2021-03-29T20:16:47Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteEmployee()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="deleteEmployee" duration-ms="27" started-at="2021-03-16T18:36:17Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="deleteEmployee()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="deleteEmployee" duration-ms="70" started-at="2021-03-29T20:16:49Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteEmployee -->
-        <test-method status="PASS" signature="editEmployee()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="editEmployee" duration-ms="45" started-at="2021-03-16T18:36:17Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="editEmployee()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="editEmployee" duration-ms="149" started-at="2021-03-29T20:16:49Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editEmployee -->
-        <test-method status="PASS" signature="listEmployees()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="listEmployees" duration-ms="20" started-at="2021-03-16T18:36:17Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="listEmployees()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="listEmployees" duration-ms="58" started-at="2021-03-29T20:16:49Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listEmployees -->
-        <test-method status="PASS" signature="newEmployee()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="newEmployee" duration-ms="3" started-at="2021-03-16T18:36:17Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="newEmployee()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="newEmployee" duration-ms="7" started-at="2021-03-29T20:16:49Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newEmployee -->
-        <test-method status="PASS" signature="saveEmployeeWithSuccess()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="saveEmployeeWithSuccess" duration-ms="3" started-at="2021-03-16T18:36:17Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="saveEmployeeWithSuccess()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="saveEmployeeWithSuccess" duration-ms="11" started-at="2021-03-29T20:16:49Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveEmployeeWithSuccess -->
-        <test-method status="PASS" signature="saveEmployeeWithValidationError()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="saveEmployeeWithValidationError" duration-ms="3" started-at="2021-03-16T18:36:17Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="saveEmployeeWithValidationError()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="saveEmployeeWithValidationError" duration-ms="14" started-at="2021-03-29T20:16:49Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveEmployeeWithValidationError -->
-        <test-method status="PASS" signature="saveEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="saveEmployeeWithValidationErrorNonUniqueSSN" duration-ms="5" started-at="2021-03-16T18:36:17Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="saveEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="saveEmployeeWithValidationErrorNonUniqueSSN" duration-ms="11" started-at="2021-03-29T20:16:49Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveEmployeeWithValidationErrorNonUniqueSSN -->
-        <test-method status="PASS" signature="updateEmployeeWithSuccess()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="updateEmployeeWithSuccess" duration-ms="3" started-at="2021-03-16T18:36:17Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="updateEmployeeWithSuccess()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="updateEmployeeWithSuccess" duration-ms="6" started-at="2021-03-29T20:16:49Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateEmployeeWithSuccess -->
-        <test-method status="PASS" signature="updateEmployeeWithValidationError()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="updateEmployeeWithValidationError" duration-ms="7" started-at="2021-03-16T18:36:17Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="updateEmployeeWithValidationError()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="updateEmployeeWithValidationError" duration-ms="5" started-at="2021-03-29T20:16:49Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateEmployeeWithValidationError -->
-        <test-method status="PASS" signature="updateEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="updateEmployeeWithValidationErrorNonUniqueSSN" duration-ms="7" started-at="2021-03-16T18:36:17Z" finished-at="2021-03-16T18:36:17Z">
+        <test-method status="PASS" signature="updateEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.javaLive.springmvc.controller.AppControllerTest@cb5822]" name="updateEmployeeWithValidationErrorNonUniqueSSN" duration-ms="11" started-at="2021-03-29T20:16:49Z" finished-at="2021-03-29T20:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateEmployeeWithValidationErrorNonUniqueSSN -->
